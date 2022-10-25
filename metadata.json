@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "muadzmohamad13@gmail.com",
+                "Name": "Muadz"
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "A Next Adzan Prayer Widget",
+        "Icon": "preferences-system-time",
+        "Id": "com.github.muadzmo.nextprayer",
+        "Name": "Next Adzan",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1",
+        "Website": "https://github.com/muadzmo/nextprayer"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
