@@ -78,15 +78,15 @@ Item {
             if( currentTime < jadwalSholat.subuh ){
                 nextPray = `subuh, ${jadwalSholat.subuh}`
             }else if ( currentTime < jadwalSholat.dzuhur ){
-                nextPray = `dzuhur, ${jadwalSholat.dzuhur}`
+                nextPray = `dzuhur 😎, ${jadwalSholat.dzuhur}`
             }else if ( currentTime < jadwalSholat.ashar ){
                 nextPray = `ashar, ${jadwalSholat.ashar}`
             }else if ( currentTime < jadwalSholat.maghrib ){
-                nextPray = `maghrib, ${jadwalSholat.maghrib}`
+                nextPray = `maghrib 🌇, ${jadwalSholat.maghrib}`
             }else if ( currentTime < jadwalSholat.isya ){
-                nextPray = `isya, ${jadwalSholat.isya}`
+                nextPray = `isya 🌝, ${jadwalSholat.isya}`
             }else if ( currentTime > jadwalSholat.isya ){
-                nextPray = "Go sleep, Dude :)"
+                nextPray = "Go sleep, Dude 🙃"
             }
         }
         Component.onCompleted: {
