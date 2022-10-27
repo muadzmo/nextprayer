@@ -1,6 +1,8 @@
 # nextprayer
 
-This is a plasma widget to notifing me about next praying time. Instead of googling the next praying time or checking app on my phone, I choose the way of making this widget 🙃
+This is a plasma widget to notifing me about next praying time. Instead of googling the next praying time or checking app on my phone, I choose the way of making this widget 🙃.
+
+I am getting the data from api.aladhan.com with timingByAddress
 
 Todo:
 ☑ make more dynamic margin
@@ -9,3 +11,4 @@ Todo:
 ☑ make widget 'hoverable'
 ☒ make onclick to show schedule detail ( I prefer to use hover for now )
 ☐ make alert if now is praying time!
+☑ make configureable city
